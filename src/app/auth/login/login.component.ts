@@ -81,6 +81,9 @@ export class LoginComponent implements OnInit {
       this.scriptService.changePage('/admin/order');
     }
   }
+  home(){
+    this.scriptService.changePage('/');
+  }
 
 
 }

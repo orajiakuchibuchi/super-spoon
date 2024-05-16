@@ -25,6 +25,7 @@
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
     "@kolkov/angular-editor": "^1.2.0",
+    "@kurkle/color": "^0.3.2",
     "@passageidentity/passage-elements": "latest",
     "@types/jquery": "^3.5.16",
     "angular-responsive-carousel": "^2.1.2",

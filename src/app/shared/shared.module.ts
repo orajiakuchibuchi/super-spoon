@@ -32,6 +32,7 @@ import { CartComponent } from './components/cart/cart.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { AddToCartComponent } from './components/add-to-cart/add-to-cart.component';
 import { DeliveryComponent } from './components/delivery/delivery.component';
+import { AccessDeniedComponent } from './components/access-denied/access-denied.component';
 
 
 @NgModule({
@@ -55,7 +56,8 @@ import { DeliveryComponent } from './components/delivery/delivery.component';
     CartComponent,
     CheckoutComponent,
     AddToCartComponent,
-    DeliveryComponent
+    DeliveryComponent,
+    AccessDeniedComponent
   ],
   imports: [
     CommonModule,
@@ -102,7 +104,8 @@ import { DeliveryComponent } from './components/delivery/delivery.component';
     PaymentComponent,
     ChatboxComponent,
     AddToCartComponent,
-    DeliveryComponent
+    DeliveryComponent,
+    AccessDeniedComponent
   ],
   entryComponents: [ModalComponent]
 })
