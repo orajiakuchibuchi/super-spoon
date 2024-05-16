@@ -142,7 +142,7 @@ export class ScriptsService {
     })
     .finally(() => {
       this.scrollTo();
-      setTimeout(() => this.spinner.hide(), 2000);
+      setTimeout(() => this.spinner.hide(), 1000);
     })
   }
   /**

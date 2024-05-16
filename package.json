@@ -10,7 +10,9 @@
     "start": "cd ./dist && npm run start",
     "build": "ng build --aot --configuration development",
     "buildpro": "ng build --aot --configuration production",
-    "test": "ng test"
+    "test": "ng test",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run serve"
   },
   "private": true,
   "dependencies": {
