@@ -32,6 +32,20 @@ const routes: Routes = [
       fromSock: SockResolver
     }
   },
+  {
+    path: 'help',
+    loadChildren: ()=> import('./help/help.module').then(m => m.HelpModule),
+    resolve:{
+      fromSock: SockResolver
+    }
+  },
+  {
+    path: 'survey',
+    loadChildren: ()=> import('./survey/survey.module').then(m => m.SurveyModule),
+    resolve:{
+      fromSock: SockResolver
+    }
+  },
 ];
 
 @NgModule({

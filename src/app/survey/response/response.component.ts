@@ -2,15 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { ScriptsService } from 'src/app/shared/services/client/scripts.service';
 
 @Component({
-  selector: 'app-withdrawal',
-  templateUrl: './withdrawal.component.html',
-  styleUrls: ['./withdrawal.component.scss']
+  selector: 'app-response',
+  templateUrl: './response.component.html',
+  styleUrls: ['./response.component.scss']
 })
-export class WithdrawalComponent implements OnInit {
-  authenticated:boolean =true;
-  accountNumber:any = '';
-  recipientName:any = '';
-  selectedBankId:any = '';
+export class ResponseComponent implements OnInit {
+
   constructor(private scriptService: ScriptsService) { }
 
   ngOnInit(): void {
@@ -18,5 +15,6 @@ export class WithdrawalComponent implements OnInit {
   home(){
     this.scriptService.changePage('/');
   }
+
 
 }

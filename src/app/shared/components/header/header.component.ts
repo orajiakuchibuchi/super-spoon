@@ -86,21 +86,21 @@ export class HeaderComponent implements OnInit {
       sub: [
         {
           name: 'My Survey',
-          route: '',
+          route: 'survey/personal',
           icon: 'bi bi-journal-text',
           id: 'survey-nav-mine',
           sub: []
         },
         {
           name: 'My Response',
-          route: '',
+          route: 'survey/response',
           icon: 'bi bi-journal-text',
           id: 'survey-nav-mine',
           sub: []
         },
         {
           name: 'Timeline (Earn)',
-          route: '',
+          route: 'survey/timeline',
           icon: 'bi bi-journal-text',
           id: 'survey-nav-timeline',
           sub: []
@@ -115,21 +115,21 @@ export class HeaderComponent implements OnInit {
       sub: [
         {
           name: 'How It Works',
-          route: '',
+          route: 'help/how',
           icon: 'bi bi-envelope',
           id: 'help-nav-hiw',
           sub: []
         },
         {
           name: 'FAQ',
-          route: '',
+          route: 'help/faq',
           icon: 'bi bi-envelope',
           id: 'help-nav-faq',
           sub: []
         },
         {
           name: 'Ticket',
-          route: '',
+          route: 'help/ticket',
           icon: 'bi bi-envelope',
           id: 'hep-nav-ticket',
           sub: []
